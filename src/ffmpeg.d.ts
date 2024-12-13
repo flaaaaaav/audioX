@@ -1,0 +1,1 @@
+declare module '@ffmpeg/ffmpeg/dist/ffmpeg.min.js';
