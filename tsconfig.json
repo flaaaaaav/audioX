@@ -1,7 +1,14 @@
 {
-  "files": [],
-  "references": [
-    { "path": "./tsconfig.app.json" },
-    { "path": "./tsconfig.node.json" }
-  ]
+  "compilerOptions": {
+    "typeRoots": ["./node_modules/@types", "./src"],
+    "types": [],
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "allowSyntheticDefaultImports": true,
+    "moduleResolution": "node",
+    "target": "es6",
+    "module": "esnext",
+    "jsx": "react-jsx"
+  },
+  "include": ["vite-env.d.ts", "src/**/*"]
 }
